@@ -1,7 +1,7 @@
 gsap.registerPlugin(TextPlugin);
 gsap.to('#myskill-1', {
-  duration: 1.5,
-  delay: 1.2,
+  duration: 1.8,
+  delay: 1.3,
   text: "Cloud & Back-End Developer",
 });
 
