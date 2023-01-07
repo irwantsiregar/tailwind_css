@@ -1,0 +1,109 @@
+## https://tailwindcss.com/
+
+Apa itu Tailwind? 
+
+"Rapidly build modern websites without ever leaving your HTML."
+
+"A utility-first CSS framework packed with classes" like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+
+"Bangun situs web modern dengan cepat tanpa harus meninggalkan HTML Anda."
+
+"Kerangka kerja CSS yang mengutamakan utilitas yang dikemas dengan kelas" seperti flex, pt-4, text-center dan rotate-90 yang dapat disusun untuk membangun desain apa pun, langsung di markup Anda.
+
+Tailwind CSS:
+- Dibuat oleh Adam Wathan, 1 November 2017
+- Saat ini sudah versi 3.0.24
+- 55.6K++ Star di Github
+- https://github.com/tailwindlabs/tailwindcss
+
+
+Utilities:
+-Preflight
+-Layout
+-Flexbox & Grid
+-Spacing & Sizing
+-Typography
+-Background & borders
+-Effect & Filters
+-Transition, Trasformation & Animation 
+-Tables
+-... dll
+
+Features:
+- Interactivity
+- Responsive Design
+- Dark Mode
+- Reusability
+- Custom Styles
+- Functions & Directives
+
+Software Requirements
+- Web Browser: Google Chrome
+- Code Editor: Visual Studio Code
+- VSCode Extension:
+	- Tailwind CSS InteliSense
+	- Live Priview
+	- PostCSS Language Support
+- Package Manager: NPM(Node.js)
+- Terminal: PowerShell, Git Bash
+
+
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ touch index.html
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npm init -y
+Wrote to C:\Users\IRWAN\Desktop\TailwindCSS\belajar-tailwind\package.json:
+
+{
+  "name": "belajar-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npm install -D tailwindcss postcss autoprefixer
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npx tailwindcss init
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ touch input.css
+  isi file dengan: 
+   {
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+   }
+
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npx tailwindcss -i ./input.css -o ./output.css --watch
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
+
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/portfolio-tailwind-css (1-portfolio)
+$ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+---PRETTIER---
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/portfolio-tailwind-css (1-portfolio)
+$ npm i -D prettier prettier-plugins-tailwindcss
+
+
+
+---MINIFY---
+IRWAN@DESKTOP-PUC61V7 MINGW64 ~/Desktop/TailwindCSS/belajar-tailwind
+$ npx tailwindcss -i ./src/input.css -o ./dist/css/final.css --minify
+
+
+
+
+
+
+
+
+
+
