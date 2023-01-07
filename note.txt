@@ -1,3 +1,0 @@
-TailwindCSS: https://tailwindcss.com/docs/installation
-Canvas SVG : https://www.blobmaker.app/
-Simple Icons: https://simpleicons.org/
